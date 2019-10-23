@@ -6,15 +6,16 @@
     "@capacitor/android": "^1.2.1",
     "@capacitor/cli": "^1.2.1",
     "@capacitor/core": "^1.2.1",
+    "@capacitor/ios": "^1.2.1",
     "@types/jest": "24.0.19",
     "@types/node": "12.11.5",
     "@types/react": "16.9.9",
     "@types/react-dom": "16.9.2",
+    "capsal-msal-plugin": "file:capsal-msal-plugin",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
-    "typescript": "3.6.4",
-    "capsal-msal-plugin": "file:capsal-msal-plugin"
+    "typescript": "3.6.4"
   },
   "scripts": {
     "start": "react-scripts start",
