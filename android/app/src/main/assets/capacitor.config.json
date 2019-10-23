@@ -1,0 +1,7 @@
+{
+  "appId": "ch.cycl.capsal",
+  "appName": "capsal",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build"
+}

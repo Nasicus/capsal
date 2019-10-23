@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">capsal</string>
+    <string name="title_activity_main">capsal</string>
+    <string name="package_name">ch.cycl.capsal</string>
+    <string name="fileprovider_authority">ch.cycl.capsal.fileprovider</string>
+    <string name="custom_url_scheme">ch.cycl.capsal</string>
+</resources>
