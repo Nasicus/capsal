@@ -8,7 +8,8 @@
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./dist",
     "watch": "tsc --watch",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "postinstall": "jetifier"
   },
   "author": "Patrick",
   "license": "MIT",
@@ -16,9 +17,10 @@
     "@capacitor/core": "latest"
   },
   "devDependencies": {
-    "typescript": "^3.2.4",
+    "@capacitor/android": "latest",
     "@capacitor/ios": "latest",
-    "@capacitor/android": "latest"
+    "jetifier": "^1.6.4",
+    "typescript": "^3.2.4"
   },
   "files": [
     "dist/",
